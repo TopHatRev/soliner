@@ -59,6 +59,7 @@ main {
 #img-container img:hover {
   cursor: pointer;
   border-radius: 5%;
+  border: #1d2d3d solid 2px;
 }
 
 img {
