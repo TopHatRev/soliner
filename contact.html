@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>SoLiner Contact</title>
+  </head>
+  <body>
+    <header class="header">
+      <a src="index.html"><h1 class="headerTitle">SoLiner</h1></a>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Home</a></li>
+          <li><a class="menu__item" href="about.html">About</a></li>
+          <li><a class="menu__item" href="contact.html">Contact</a></li>
+          <li>
+            <a class="menu__item" href="products.html">Products & Sales</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="form">
+      <form id="complaints-form">
+        <fieldset>
+          <legend>State your query and we will get back to you.</legend>
+          <label type="email" for="email-input">Email:</label>
+          <input type="text" name="emailInput" id="email-input" />
+          <label for="subject-input">Subject:</label>
+          <input name="subjectInput" id="subject-input" />
+          <label for="content-input">Content:</label>
+          <textarea
+            name="contentInput"
+            id="content-input"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button id="submit-button" type="submit">SUBMIT</button>
+        </fieldset>
+      </form>
+    </div>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

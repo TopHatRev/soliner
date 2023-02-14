@@ -1,0 +1,97 @@
+body {
+  background-color: #1d2d3d;
+  color: #f9f9f1;
+  font-family: monospace;
+}
+
+a {
+  color: #f9f9f1;
+}
+
+td,
+th {
+  border: 1px solid #fff;
+  padding: 0.5rem;
+}
+
+.icon {
+  display: flex;
+  padding: 10px 0;
+  width: 80px;
+}
+
+.headerBar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.locations ul {
+  border: 5px solid #f9f9f1;
+  display: flex;
+  flex-direction: column;
+  list-style: square;
+  width: 60%;
+  font-size: 1.2rem;
+  background-color: #063260;
+  text-align: center;
+}
+
+.salesButton {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
+.missionPara {
+  font-size: 1.2rem;
+  display: flex;
+  border: 5px solid #f9f9f1;
+  background-color: #063260;
+}
+
+.missionPara p {
+  margin: 5px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border-color: white;
+}
+legend {
+  text-align: center;
+}
+input {
+  margin-bottom: 2rem;
+}
+label {
+  margin-top: 1rem;
+}
+
+fieldset button {
+  background-color: #1d2d3d;
+  border: 2px solid white;
+  padding: 1rem;
+  color: white;
+}
+
+fieldset button:hover {
+  transition-delay: 15ms;
+  background-color: aliceblue;
+  color: #063260;
+  cursor: pointer;
+}
+
+#content-input {
+  resize: none;
+  margin-bottom: 1rem;
+}
