@@ -48,7 +48,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  border: 3px solid black;
+  border: 3px solid #282d45;
   margin-top: 2rem;
 }
 
