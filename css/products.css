@@ -49,12 +49,16 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  border: 3px solid #282d45;
   margin-top: 2rem;
+}
+
+#img-container img {
+  border-radius: 10%;
 }
 
 #img-container img:hover {
   cursor: pointer;
+  border-radius: 5%;
 }
 
 img {
@@ -87,4 +91,16 @@ img {
 
 .productRows img:hover {
   cursor: pointer;
+}
+
+.productBtn {
+  background-color: #1d2d3d;
+  border: #d8dad5 solid 2px;
+  color: #d8dad5;
+}
+
+.productBtn:hover {
+  cursor: pointer;
+  background-color: #d8dad5;
+  color: #1d2d3d;
 }

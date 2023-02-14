@@ -107,3 +107,10 @@ h1:hover {
   background-color: #1e2023;
   color: whitesmoke;
 }
+
+footer {
+  background-color: #121d27;
+  color: #e6e6e6;
+  text-align: center;
+  padding: 3rem;
+}
