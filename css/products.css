@@ -7,6 +7,7 @@
   width: 100%;
   height: auto;
   margin-bottom: 2rem;
+  border-bottom: #d8dad5 solid 2px;
 }
 
 .image-text {
@@ -52,6 +53,10 @@ main {
   margin-top: 2rem;
 }
 
+#img-container img:hover {
+  cursor: pointer;
+}
+
 img {
   width: 30%;
 }
@@ -70,6 +75,7 @@ img {
   margin: 1rem;
   font-size: 2rem;
   color: #d8dad5;
+  line-height: 3rem;
 }
 
 .productRows img {
@@ -77,4 +83,8 @@ img {
   margin-right: 1rem;
   border: #d8dad5 solid 2px;
   margin-bottom: 1rem;
+}
+
+.productRows img:hover {
+  cursor: pointer;
 }
