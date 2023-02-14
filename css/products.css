@@ -55,3 +55,26 @@ main {
 img {
   width: 30%;
 }
+
+.productsHeader {
+  text-align: center;
+  color: #6e6c6c;
+  margin: 0.5rem auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e6e8e1;
+  padding: 1rem;
+}
+
+.productRows {
+  display: flex;
+  margin: 1rem;
+  font-size: 2rem;
+  color: #d8dad5;
+}
+
+.productRows img {
+  border-radius: 25% 10%;
+  margin-right: 1rem;
+  border: #d8dad5 solid 2px;
+  margin-bottom: 1rem;
+}
