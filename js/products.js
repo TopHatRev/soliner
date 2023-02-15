@@ -137,8 +137,8 @@ function renderChart() {
       {
         label: "# of Votes",
         data: clicksData,
-        backgroundColor: ["darkslategrey", "darkgrey"],
-        borderColor: ["whitesmoke", "whitesmoke"],
+        backgroundColor: ["#1d2d3d", "whitesmoke"],
+        borderColor: ["whitesmoke", "#1d2d3d"],
         borderWidth: 2,
       },
     ],
