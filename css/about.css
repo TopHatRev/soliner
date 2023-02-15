@@ -1,0 +1,50 @@
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  border-bottom: #d8dad5 solid 2px;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: right;
+  color: #fff;
+}
+
+.image-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: right;
+  opacity: 0.75;
+}
+
+.aboutRow {
+  display: flex;
+  margin: 1rem;
+  font-size: 1.6rem;
+  color: #d8dad5;
+  line-height: 2.3rem;
+}
+
+.aboutRow img {
+  border-radius: 10%;
+  margin-right: 1rem;
+  border: #d8dad5 solid 2px;
+  margin-bottom: 1rem;
+  width: 35%;
+  max-height: 350px;
+}
+
+.aboutRow img:hover {
+  cursor: pointer;
+}
