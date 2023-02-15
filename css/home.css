@@ -29,7 +29,33 @@
 }
 
 .video-text p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 1.2rem;
+  line-height: 2;
   margin-bottom: 0;
+  font-weight: bold;
+}
+
+.infoRows {
+  display: flex;
+  margin: 1rem;
+  font-size: 2rem;
+  color: #d8dad5;
+  line-height: 3rem;
+}
+
+.infoRows img {
+  border-radius: 10%;
+  margin-right: 1rem;
+  border: #d8dad5 solid 2px;
+  margin-bottom: 1rem;
+}
+
+.infoRows img:hover {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  color: #d8dad5;
+  font-size: 2.5rem;
 }
